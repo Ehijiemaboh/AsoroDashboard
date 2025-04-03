@@ -1,0 +1,62 @@
+.h2 {
+    color: brown;
+}
+.A {
+    background-color: aqua;
+}
+.AB1 {
+    background-color: azure; 
+    width: 30%; 
+    height: 80%;  
+}
+.AB2 {
+    background-color: azure; 
+    width: 70%; 
+    height: 80%;  
+}
+.AB1C1 {
+    background-color: black;
+    width: 20%;
+    height: 10%;
+
+}
+.AB1C2 {
+    background-color: blueviolet;
+    width: 20%;
+    height: 90%;
+}
+.AB1C2D1,.AB1C2D2,.AB1C2D3,.AB1C2D4,.AB1C2D5,.AB1C2D6 {
+    background-color: blueviolet;
+    width: 20%;
+    height: 10%;
+}
+.AB1C2D7 {
+    background-color: blueviolet;
+    width: 20%;
+    height: 30%;
+}
+.AB2 {
+    background-color: black;
+    width: 70%;
+    height: 80%;
+}
+.AB2C1 {
+    background-color: blue;
+    width: 70%;
+    height: 20%;
+}
+.AB2C2 {
+    background-color: blueviolet;
+    width: 70%;
+    height: 35%;
+}
+.AB2C3 {
+    background-color: aqua;
+    width: 30%;
+    height: 35%;
+}
+.AB2C4 {
+    background-color: aqua;
+    width: 70%;
+    height: 35%;
+}
