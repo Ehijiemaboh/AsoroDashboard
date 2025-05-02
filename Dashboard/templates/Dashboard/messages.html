@@ -1,0 +1,110 @@
+{% extends "Dashboard/layout.html" %}
+{% load static %}
+{% block body %}
+
+<div class="row" id="TOP"> 
+    <form id="form" class="col-sm-7">
+    <button  id="button"    type="submit">Search</button>
+    <input  id="searchb"   type="search" placeholder="Search...">
+    </form>
+    <img class="col-1" id="img" src="{% static 'Dashboard/img/bell.png' %} " alt="Bell">
+    <div  class="col-1"> <h6 id="AC_button">AC</h6> 
+    </div>
+   <div class="col-sm-2">
+    <h10 class="col" id="AdminM1"> Adekunle Cirona
+     Admin </h10>
+   </div>
+</div>
+<div class="row" id="M">
+    <div class="row" id="rowM1">
+        <h5><b>DM'S</b>   Notifications</h5>
+    </div>
+    <div class="row"  id="rowM2">
+        <div id="M1" class="col-sm-4" >
+            <div class="row" id="AB2C3M1A">
+                <h6 class="col-sm-1"  id="AC_button">AC</h6> 
+                <h10 class="col-sm-4" id="Admin"> Adekunle Cirona
+                    Admin </h10> 
+            </div>
+            <div class="row" id="AB2C3M1B">
+                <h6 class="col-sm-4"  id="AC_button">AC</h6> 
+                <h10 class="col-sm-4" id="Admin"> Adekunle Cirona
+                    Admin </h10> 
+            </div>
+            <div class="row" id="AB2C3M1C">
+                <h6 class="col-sm-1"  id="AC_button">AC</h6>
+                <h10 class="col-sm-4" id="Admin"> Adekunle Cirona
+                    Admin </h10> 
+            </div>
+            <div class="row" id="AB2C3M1D">
+                <h6 class="col-sm-1"  id="AC_button">AC</h6> 
+                <h10 class="col-sm-4" id="Admin"> Adekunle Cirona
+                    Admin </h10> 
+            </div>
+            <div class="row" id="AB2C3M1E">
+                <h6 class="col-sm-1"  id="AC_button">AC</h6> 
+                <h10 class="col-sm-4" id="Admin"> Adekunle Cirona
+                    Admin </h10> 
+            </div>     
+        </div>
+        <div class="col-sm-4" id="M2">  
+            <div class="cards" id="AB2C3M2">
+                <!--<div class="card-header">-->
+                    <!--username should be unique-->
+                    <!--<h2 class="headertext"> Chatbot </br> Support Agent</h2>-->
+                <!--</div>-->
+                <div class="card-body">
+                    <div class="chat chat-bot">
+                        <span class="user-icon"><i class="fa fa-robot"></i></span>
+                        <!--username should be unique-->
+                        <p> Hello username <br> Welcome to LiveChart Drop your message and we will reply you right away </p>                   
+                        </div>
+                    <div class="chat user">
+                        <span class="user-icon"><i class="fa fa-user"></i></span>
+                        <p class="userp"> Welcome </p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <textarea 
+                        name="massage"
+                        class="input-chat"
+                        id=""
+                        cols="10"
+                        rows="1"
+                        placeholder="ask me anything...">
+                    </textarea>
+                    <div class="sending-icon">
+                        <i class="fa fa-paper-plane" style="font-size:24px"></i>   
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4" id="M3">
+            <div class="row" id="AB2C3M3TOP">
+                <h10 style="width: 100%;" id="Admin"> Adress </br> mechanic </br>08011122344</h10> 
+            </div>
+            <div class="row" id="AB2C3M3A">
+                <h10 class="col-sm-4" id="Admin"> Adress </br> 12 joe street </h10> 
+            </div>
+            <div class="row" id="AB2C3M3B">
+                <h10 class="col-sm-4" id="Admin">  Request received </br> 12 </h10> 
+            </div>
+            <div class="row" id="AB2C3M3C">
+                <h10 class="col-sm-4" id="Admin">  Request completed </br> 7 </h10> 
+            </div>
+            <div class="row" id="AB2C3M3D">
+                <h10 class="col-sm-4" id="Admin">  Pending Request </br> 1 </h10> 
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<script defer src="{% static 'Dashboard/script.js' %}"></script>
+
+
+
+
+
+{% endblock %}

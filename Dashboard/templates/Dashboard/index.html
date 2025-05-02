@@ -1,0 +1,125 @@
+{% extends "Dashboard/layout.html" %}
+{% load static %}
+{% block body %}
+    <div class="row" id="TOP">
+        <img id="img1" src="{% static 'Dashboard/img/bell.png' %}"  alt="Bell">
+        <h6 id="AC_button">AC</h6> 
+        <h10 class="col"> <span style="font-weight: 100px;">Adekunle Cirona</span></br>
+        Admin </h10>
+    </div>
+    <div id="bottom" >
+        <div  id="METRICS"  > <H3>KEY METRICS</H3> </div>
+        <div class="row" id="AB2C1">
+            <button id="firstbutton" class="col">
+                <h12>Pending Service Request</h12></br>
+                <b>15</b>
+            </button>
+            <button class="col" id="AB2C1D2">
+                <h12>Pending Service Request</h12></br>
+                <b>15</b>
+            </button> 
+            <button class="col" id="AB2C1D3">
+                <h12>Completed Service Request</h12></br>
+                <b>320</b>
+            </button>
+            <button class="col" id="AB2C1D4">
+                <h12>Post Orders Processing</h12></br>
+                <b>320</b>
+            </button>
+        </div>
+        <div class="row" id="TAB2C3">
+            <div class="col-6" id="AB2C2"> graph
+            </div>  
+            <div class="col-5" id="AB2C3" 
+            style=" border-right: saddlebrown; padding-right: 0%; margin-right: 0;">AB2C3
+                <hr>
+                <div class="row justify-content-end">
+                <table class="table" style="padding-right: 3%;">
+                    <thead>
+                        <tr>
+                            <th scope="col-2">Mechenis Name</th>
+                            <th scope="col-2">Requests Received</th>
+                            <th scope="col-2">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>22</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>22</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>22</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <th style="font-weight:400;" scope="row">name3</th>
+                            <td>John Doe</td>
+                            <td>22</td>
+                            <td>...</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row" id="AB2C4">
+            <table class="table" style="padding-right: 3%;">
+                <thead>
+                    <tr>
+                        <th scope="col-2">Request ID</th>
+                        <th scope="col-2">Individual Name</th>
+                        <th scope="col-2">Individual Address</th>
+                        <th scope="col-2">No of Requests</th>
+                        <th scope="col-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>RQ3322</td>
+                        <td>John Doe</td>                                    
+                        <td style="width: 30%;">123 Mane str</td>
+                        <td>22</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>RQ3322</td>
+                        <td>John Doe</td>                                    
+                        <td style="width: 30%;">123 Mane str</td>
+                        <td>22</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>RQ3322</td>
+                        <td>John Doe</td>                                    
+                        <td style="width: 30%;">123 Mane str</td>
+                        <td>22</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>RQ3322</td>
+                        <td>John Doe</td>                                    
+                        <td style="width: 30%;">123 Mane str</td>
+                        <td>22</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>RQ3322</td>
+                        <td>John Doe</td>                                    
+                        <td style="width: 30%;">123 Mane str</td>
+                        <td>22</td>
+                        <td>...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}
